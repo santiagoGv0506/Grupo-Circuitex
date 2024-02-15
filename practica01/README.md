@@ -90,7 +90,7 @@ Para el multiplexor de 8 entradas y 16 bits, tambien reutilizamos el codigo de M
 
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/159449277/a70ab5b2-6621-4626-bf9a-75f9e5d943e9)
 
-##Dmux4way
+## Dmux4way
 
 Para el demultiplexor de 4 salidas, se utilizo logica de 1 para el cual si por ejemplo queremos que nuestra salida sea la a y le corresponde el 00, conectamos la entrada in con sel[0] negado y sel[1] negado mediante compuertas and, pero si queremos que la salida sea c, le corresponde el 10 en el select, conectamos la entrada in con sel[0] negado y sel[1].
 
