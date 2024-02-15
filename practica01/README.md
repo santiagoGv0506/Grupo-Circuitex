@@ -15,7 +15,7 @@ Es la compuerta nativa que nos proporciona el sistema, se derivan de esta todas 
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/159449792/6b3d9598-49f6-49b6-952b-80c3e13781eb)
 
 # Not
-Para esta compuerta se utilizo la compuerta nativa Nand, usando la misma variable en las dos entradas y teniendo como salida la negacion de las mmismas.
+Para esta compuerta se utilizo la compuerta nativa Nand, usando la misma variable en las dos entradas y teniendo como salida la negacion de las mismas.
 
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/159449792/63e50c97-b687-4125-8000-9d89f3aac5f2)
 
