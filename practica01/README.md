@@ -45,8 +45,8 @@ El circuito lógico Not16 lo que hace es en si lo mismo que el Not solo que a ma
 
 ## And16
 El circuito lógico And16 aplica la tabla de verdad del and a cada uno de los bits dentro de los espacios de de 16 bits, es decir que viendolo como si este fuera un arreglo, va recorriendolo aplicandole la compuerta and a cada bit.
+![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/97885177/4943beca-ab3d-4276-8582-bfeed96ed304)
 
-![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/97885177/66e99371-e564-4edd-b64e-51065ebda849)
 
 ## Or16
 La compuerta Or16 recibe como entrada un input de 16 bits, para su elaboracion entonces se asignan los valores de entrada y salida como arrays de 16 de longitud y se utilizan 16 compuertas or para comparar bit por bit los valores del input iniciando en el indicie 0 hasta el 15.
