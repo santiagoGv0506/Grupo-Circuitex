@@ -48,10 +48,10 @@ El circuito lógico And16 aplica la tabla de verdad del and a cada uno de los bi
 
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/97885177/66e99371-e564-4edd-b64e-51065ebda849)
 
-##Or16
+## Or16
 
 
-##Or8Way
+## Or8Way
 
 ## Xor
 El circuito logico Xor solo retorna un 1 logico solo cuando una de las dos entradas está en 1. Se puede hacer con dos compuertas And, dos compuertas Not y una compuerta Or.
@@ -64,9 +64,10 @@ El multiplexor toma una de las dos entradas y las convierte en salida dependiend
 
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/92127039/37d6be2c-fd40-436b-9fcf-5780d7a163f2)
 
-##Mux16
-![mux16](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/129707742/b81853f8-34ae-4bd7-bff2-3c313c022250)
+## Mux16
 La compuerta Mux16 es igual que una compuerta Mux convencional con la diferencia de que su entrada son un numero binario de 16 bits, pára su elaboracion se declara las entradas (a,b) y la salida variables tipo array con una longitud de 16, luego se utilizan 16 compuertas Mux y les asignamos una a una de forma secuencial cada bit del array, la entrada de seleccion y la salida, de forma que la primera compuerta Mux realiza la multiplexacion para los bits a[0] y b[0], asignando a la salida el valor out[0], se continua asi con las siguientes compuertas Mux hasta llegar al ultimo indice, la entrada de seleccion permanece igual para todos los Mux.
+
+![mux16](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/129707742/b81853f8-34ae-4bd7-bff2-3c313c022250)
 
 ## Mux4way16
 
