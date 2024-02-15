@@ -96,3 +96,7 @@ Compuertas logicas: https://hetpro-store.com/TUTORIALES/compuertas-logicas/
 The Elements of Computing Systems: https://www.nand2tetris.org/_files/ugd/44046b_f2c9e41f0b204a34ab78be0ae4953128.pdf
 
 From Nand to Tetris Building a Modern Computer from First Principles: https://drive.google.com/file/d/1MY1buFHo_Wx5DPrKhCNSA2cm5ltwFJzM/view?pli=1
+
+
+VLSI Universe, MULTIPLEXOR:
+https://vlsiuniverse.blogspot.com/2016/07/multiplexer.html
