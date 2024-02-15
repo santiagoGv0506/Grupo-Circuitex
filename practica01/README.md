@@ -2,6 +2,7 @@
 
 ##
 Este proyecto forma parte del curso de Arquitectura de Computadores y tiene como objetivo principal proporcionar una comprensión práctica de los principios de la lógica booleana y la implementación de compuertas lógicas básicas utilizando el lenguaje de descripción de hardware HDL.
+Mas informacion en nuestra página web: https://sites.google.com/view/grupo-circuitex-adc
 
 # Instrucciones.
 
