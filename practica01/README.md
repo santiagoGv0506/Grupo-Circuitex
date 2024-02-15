@@ -49,10 +49,15 @@ El circuito lógico And16 aplica la tabla de verdad del and a cada uno de los bi
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/97885177/66e99371-e564-4edd-b64e-51065ebda849)
 
 ## Xor
-El circuito logico Xor solo retorna un 1 logico solo cuando una de las dos entradas está en 1. Se puede hacer con dos compuertas And, dos compuertas Not y una compuerta Or
+El circuito logico Xor solo retorna un 1 logico solo cuando una de las dos entradas está en 1. Se puede hacer con dos compuertas And, dos compuertas Not y una compuerta Or.
+
+![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/92127039/98456197-6124-43c5-9356-8c5cf41dd226)
+
 
 ## Mux
 El multiplexor toma una de las dos entradas y las convierte en salida dependiendo del valor logico de un selector.
+
+![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/92127039/37d6be2c-fd40-436b-9fcf-5780d7a163f2)
 
 ## Mux4way16
 
