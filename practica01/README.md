@@ -49,9 +49,13 @@ El circuito lógico And16 aplica la tabla de verdad del and a cada uno de los bi
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/97885177/66e99371-e564-4edd-b64e-51065ebda849)
 
 ## Or16
+La compuerta Or16 recibe como entrada un input de 16 bits, para su elaboracion entonces se asignan los valores de entrada y salida como arrays de 16 de longitud y se utilizan 16 compuertas or para comparar bit por bit los valores del input iniciando en el indicie 0 hasta el 15.
+![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/129707742/e81a5f79-8b48-4730-bb0b-0b6b16ffb3ba)
 
 
 ## Or8Way
+La Or8Way es una compuerta que recibe 8 entradas de 1 bit, para su elaboracion se utilizan en principio 4 compuertas Or con las cuales se comparan las 8 entradas iniciales, despues asignamos las 4 salidas a 2 nuevas compuertas Or cuyas salidas finalmente se le asignan a una ultima compuerta Or que nos da la salida final.
+
 
 ## Xor
 El circuito logico Xor solo retorna un 1 logico solo cuando una de las dos entradas está en 1. Se puede hacer con dos compuertas And, dos compuertas Not y una compuerta Or.
