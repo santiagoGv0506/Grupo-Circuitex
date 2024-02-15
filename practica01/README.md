@@ -55,7 +55,7 @@ El circuito logico Xor solo retorna un 1 logico solo cuando una de las dos entra
 
 
 ## Mux
-El multiplexor toma una de las dos entradas y las convierte en salida dependiendo del valor logico de un selector.
+El multiplexor toma una de las dos entradas y las convierte en salida dependiendo del valor logico de un selector. Se construye con tres entradas, el selector y otras dos entradas, a su vez tiene una salida. Un multiplexor 2 a 1 puede construirse con dos And, una Not y una Or.
 
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/92127039/37d6be2c-fd40-436b-9fcf-5780d7a163f2)
 
