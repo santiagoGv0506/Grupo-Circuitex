@@ -7,7 +7,7 @@ Este proyecto forma parte del curso de Arquitectura de Computadores y tiene como
 
 Primeramente se descarga la herramienta creada por los autores Noam Nisan y Shimon Schocken de Nand2tetris en el sigueinte link https://www.nand2tetris.org/project01 como complemento adicional para el correcto funcionamemiento de la herramienta,  se debe descargar Java, descargar la carpeta.zip y abrir el HardwareSimulator en la carpeta de "tools" y proceder a editar los archivos .hdl para despues ejecutarlos en sistema anteriormente nombrado.
 
-# Estructura (archivos y pruebas).
+# Archivos y pruebas.
 
 ## Nand
 Es la compuerta nativa que nos proporciona el sistema, se derivan de esta todas las demás compuertas.
