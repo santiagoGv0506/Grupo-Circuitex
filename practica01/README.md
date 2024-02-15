@@ -66,6 +66,12 @@ El multiplexor toma una de las dos entradas y las convierte en salida dependiend
 Para el multiplexor de 16 bits y 4 entradas reutilizamos el codigo de Mux16, primero filtramos las salidas a y b con el bit sel[0], y con este mismo filtramos las salidas c y d.
 Estas salidas auxiliares las llamamos out1 y out2, y son filtradas nuevamente con la funcion logica Mux16 utilizando como el bit sel[1], finalmente esta salida es la mostrada en pantalla.
 
+## Mux8way16
+
+![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/159449277/a70ab5b2-6621-4626-bf9a-75f9e5d943e9)
+
+
+
 ## Créditos
 
 Este proyecto se basa en el trabajo de Noam Nisan y Shimon Schocken "The Elements of Computing Systems" y en el curso Arquitectura de redes. 
