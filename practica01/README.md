@@ -78,6 +78,8 @@ Estas salidas auxiliares las llamamos out1 y out2, y son filtradas nuevamente co
 
 ## Mux8way16
 
+Para el multiplexor de 8 entradas y 16 bits, tambien reutilizamos el codigo de Mux16, para el cual filtramos las entradas a y b; c y d; e y f; g y h con el bit de menor ssignificancia del select sel[0], posteriormente estas 4 salidas auxiliares out1 y out2; out3 y out4 se filtran segun el segundo bit del select sel[1] y finalmente las dos salidas auxiliares obtenidas del anterior paso se filtran con el ultimo bit del select sel[2], obteniendo el out correspondiente a la entrada adecuada segun el select.
+
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/159449277/a70ab5b2-6621-4626-bf9a-75f9e5d943e9)
 
 
