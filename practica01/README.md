@@ -54,6 +54,7 @@ La compuerta Or16 recibe como entrada un input de 16 bits, para su elaboracion e
 
 ## Or8Way
 La Or8Way es una compuerta que recibe 8 entradas de 1 bit, para su elaboracion se utilizan en principio 4 compuertas Or con las cuales se comparan las 8 entradas iniciales, despues asignamos las 4 salidas a 2 nuevas compuertas Or cuyas salidas finalmente se le asignan a una ultima compuerta Or que nos da la salida final.
+![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/129707742/946a2d05-5263-4312-a6da-de6187a8382d)
 
 
 ## Xor
