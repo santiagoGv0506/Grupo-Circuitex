@@ -54,7 +54,12 @@ El circuito logico Xor solo retorna un 1 logico solo cuando una de las dos entra
 ## Mux
 El multiplexor toma una de las dos entradas y las convierte en salida dependiendo del valor logico de un selector.
 
+## Mux4way16
 
+![image](https://tomorrow0w0.gitbooks.io/nand2tetris-homework/content/assets/Mux4Way16.png)
+
+Para el multiplexor de 16 bits y 4 entradas reutilizamos el codigo de Mux16, primero filtramos las salidas a y b con el bit sel[0], y con este mismo filtramos las salidas c y d.
+Estas salidas auxiliares las llamamos out1 y out2, y son filtradas nuevamente con la funcion logica Mux16 utilizando como el bit sel[1], finalmente esta salida es la mostrada en pantalla.
 
 ## Créditos
 
