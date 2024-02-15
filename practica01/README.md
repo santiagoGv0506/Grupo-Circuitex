@@ -98,6 +98,12 @@ Para el demultiplexor de 4 salidas, se utilizo logica de 1 para el cual si por e
 
 ![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/159449277/bdb2382d-2154-4ff9-b927-f6486f2ce03b)
 
+## Dmux8way
+
+Este multiplexor funciona bajo la misma logica del Dmux4way, pero ahora el select posee 3 bits por lo tanto para seleccionar cada una de las 8 salidas se requiere una conectar la entrada con los correspondientes bits del select o sus negados por medio de compuertas and. Por ejemplo: para seleccionar la salida d el select correspondiente seria 011, por lo tanto habria que conectar mediante compuertas and el bit sel[2] negado, sel[1] y sel[0] (los dos ultimos sin negar) y la entrada in.
+
+![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/159449277/06eee9bf-1cad-40c6-bab8-5ebc8298a985)
+
 ## Créditos
 
 Este proyecto se basa en el trabajo de Noam Nisan y Shimon Schocken "The Elements of Computing Systems" y en el curso Arquitectura de redes. 
