@@ -14,8 +14,9 @@ Un incremento funciona de igual manera que el Add16 con la unica diferencia de q
 ## ALU
 
 ## Bit
-
+para poder tener una unidad de persistencia de memoria de un bit tenemos que poder guardar y cargar informacion, para esto tenemos dos inputs in y load, este ultimo nos sirve como condicion para saber si debemos guardar nueva informacion o mantener la informacion anterior de forma que si el load es 1 ingresamos nueva informacion, de lo contrario mantenemos la informacion, para realizar esto utilizamos un multiplexor asignando el load al valor del selector para que el decida que informacion pasa, para las entradas hacemos un loop usando un data flip flop DFF cuya entrada es la salida del Mux y su salida vuelve al segundo input del Mux, de esta forma si el load carga un in = 1 el flip flop cargá la nueva entrada en cambio si el load no es 1 el flip flp cargará la informacion que tenia antes.
 ## Register
+El register es un conjunto de x bits, en este caso es un registro de 16 bits, para su realizacion utilizamos el chip de bit que realizamos anterior mente, asignando un bit para cada uno de los 16 valores del input, pero le asignamos a todos los 16 bits el mismo valor del load, con el cual el registro sabra si debe almacenar la informacion en caso de que el load sea uno o no almacenar la informacion del input en caso que el load sea diferente a uno.
 
 ## RAM8
 La RAM de 8 registros funciona tal y como su nombre lo indica con solo 8 registers. Lo primero que realizamos fue utilizar un demultiplexor para cargar el load a la direccion del registro utilizando el ADRESS al que se desea acceder, una vez hecho esto, todas las salidas del demultiplexor se cargan a la entrada load de cada register, de esta manera solo se actualiza el registro seleccionado. Para leer utilizamos un multiplexor cuyas entradas son las salidas de cada registro de manera que segun el adress, solo se mostrara la salida seleccionada. Asi obtuvimos una Ram de 8 registros que nos permite almacenar informacion y es la base para realizar las RAM compuestas.
