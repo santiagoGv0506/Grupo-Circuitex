@@ -2,11 +2,17 @@
 En esta practica se realizaron los proyectos 2 y 3 de nand2tetris con el proposito de en una primera insancia desarrollan los chips necesarios para poder hacer una unidad aritmetica logica (ALU) que pueda realizar las diferentes funciones para las cuales esta diseñada y por otro lado desarrollar una unidad de persistencia de informacion haciendo uso de una unidad bit con compuertas que permita luego hacer y guardar registros con los cuales poder desarrollar la RAM.
 
 # codigos
+
 ##HalfAdder
+
 ##FullAdder
+
 ##Add16
+
 ##Inc16
+
 ##ALU
+
 # preguntas adicionales
 
 ## ¿Cuál es el objetivo de cada uno de esos proyectos con sus palabras y describa que debe hacer para desarrollarlo?
