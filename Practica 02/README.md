@@ -10,7 +10,7 @@ El fullAdder realiza la suma de 3 inputs de un bit, para su realizacion utilizam
 ## Add16
 Para el Add16 hacemos basicamente un Adder para inputs de 16 bits, para realizarlo utilizamos en un pincipio un HalfAdder para el primer bit del input, seguidamente utilizamos 14 FullAdders para los bits restantes utilizando el carry del Adder anterior como valor de input C de forma que el primer FullAdder utiliza el carry del HalfAdder y el 2 FullAdder usa el carry del primero y asi consecuentemente hasta el ultimo FullAdder
 ## Inc16
-
+Un incremento funciona de igual manera que el Add16 con la unica diferencia de que solo tenemos un input al cual le sumamos un 1, por lo tanto asignamos el input de 16 bits al valor a de un Add16 y para el segundo input utilizamos la condicion b[0]=true para sumarle ese uno al primer input y el resultado se lo asignamos a nuestro output.
 ## ALU
 
 ## Bit
