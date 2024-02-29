@@ -18,6 +18,7 @@ Un incremento funciona de igual manera que el Add16 con la unica diferencia de q
 ## Register
 
 ## RAM8
+La RAM de 8 registros funciona tal y como su nombre lo indica con solo 8 registers. Lo primero que realizamos fue utilizar un demultiplexor para cargar el load a la direccion del registro utilizando el ADRESS al que se desea acceder, una vez hecho esto, todas las salidas del demultiplexor se cargan a la entrada load de cada register, de esta manera solo se actualiza el registro seleccionado. Para leer utilizamos un multiplexor cuyas entradas son las salidas de cada registro de manera que segun el adress, solo se mostrara la salida seleccionada. Asi obtuvimos una Ram de 8 registros que nos permite almacenar informacion y es la base para realizar las RAM compuestas.
 
 ## RAM64
 
