@@ -34,6 +34,8 @@ La RAM4K se compone de 8 RAM512 y un adress de 12 bits, al igual que en las ante
 La RAM16K se compone de 8 RAM4K y un adress de 15 bits, al igual que en las anteriores, se usa un demultiplexor para asignar el load a la posicion de RAM correcta usando los 3 bits mas significativos del adress y se envian estos load o salidas del DMUX a cada una de los RAM4K, las salidas de estas RAM4K entran a un multiplexor y segun adress[12..14] obtenemos la salida requerida. 
 
 ## PC
+Para este counter requerimos informacion de la RAM a la cual llamamos outloop, y con ayuda de un add16 realizamos un incrementer, posteriormente con un multiplexor si la entrada inc es 1 guardamos el incremento, si no mantenemos la entrada procedente de la RAM. En un segundo MUX ingresamos la salida del anterior multiplexor t0 y la entrada in, si el load es 1 dejamos pasar la entrada in, de lo contrario mantenemos t0 en la salida llamada t1. Posteriormente en un multiplexor ingresamos t1 y false (equivalente a ceros), si reset es 1, la salida en t2 seran ceros, de lo contrario se conservara  la entrada t1.
+Despues de esto, con ayuda de compuertas or miramos si hubo incremento, reset o load en el PC, es decir que una de estas entradas fuera 1, y en caso de serlo, registramos en la RAM t1.
 
 # Preguntas adicionales
 
