@@ -13,6 +13,22 @@ En esta practica se realizaron los proyectos 2 y 3 de nand2tetris con el proposi
 
 ## ALU
 
+## Bit
+
+## Register
+
+## RAM8
+
+## RAM64
+
+## RAM512
+
+## RAM4k
+
+## RAM16K
+
+##
+
 # preguntas adicionales
 
 ## ¿Cuál es el objetivo de cada uno de esos proyectos con sus palabras y describa que debe hacer para desarrollarlo?
