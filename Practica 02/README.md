@@ -8,7 +8,7 @@ El halfAdder realiza la suma logica de dos inputs, al ejecutarlo el resultado de
 ## FullAdder
 El fullAdder realiza la suma de 3 inputs de un bit, para su realizacion utilizamos el HalfAdder realizado antes sumando los dos primeros inputs, luego utilizamos otro HalfAdder para sumar el tercer input y el output de la primera suma, para el carry simplemente utilizamos un or cuyos inputs sean los carry de los dos HalfAdder que empleamos.
 ## Add16
-
+Para el Add16 hacemos basicamente un Adder para inputs de 16 bits, para realizarlo utilizamos en un pincipio un HalfAdder para el primer bit del input, seguidamente utilizamos 14 FullAdders para los bits restantes utilizando el carry del Adder anterior como valor de input C de forma que el primer FullAdder utiliza el carry del HalfAdder y el 2 FullAdder usa el carry del primero y asi consecuentemente hasta el ultimo FullAdder
 ## Inc16
 
 ## ALU
