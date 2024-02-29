@@ -1,4 +1,7 @@
 ### Practica 02
+En esta practica se realizaron los proyectos 2 y 3 de nand2tetris con el proposito de en una primera insancia desarrollan los chips necesarios para poder hacer una unidad aritmetica logica (ALU) que pueda realizar las diferentes funciones para las cuales esta diseñada y por otro lado desarrollar una unidad de persistencia de informacion haciendo uso de una unidad bit con compuertas que permita luego hacer y guardar registros con los cuales poder desarrollar la RAM.
+
+### Practica 02
 
 ## ¿Cuál es el objetivo de cada uno de esos proyectos con sus palabras y describa que debe hacer para desarrollarlo?
 El principal objetivo de el proyecto dos es entender como funciona la logica que permite al procesador realizar opreaciones aritmeticas.En este caso la ALU permite realizar operaciones con dos entradas binarias. Para poder entender el funcionamiento de la ALU y en consencuencia el funcionamiento de la logica aritmetica de procesador es necesario realizar diversos chips logicos siguiendo un orden, del menos complejo al mas complejo, siguiendo el orden: HalfAdder, FullAdder, Add16, Inc16 y finalizando con el ALU. Es importante destacar que es necesario entender la naturaleza de las operaciones con binarios y como el computador interpreta estas.
