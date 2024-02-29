@@ -3,15 +3,15 @@ En esta practica se realizaron los proyectos 2 y 3 de nand2tetris con el proposi
 
 # codigos
 
-##HalfAdder
+## HalfAdder
 
-##FullAdder
+## FullAdder
 
-##Add16
+## Add16
 
-##Inc16
+## Inc16
 
-##ALU
+## ALU
 
 # preguntas adicionales
 
