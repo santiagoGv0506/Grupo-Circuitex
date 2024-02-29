@@ -27,7 +27,7 @@ En esta practica se realizaron los proyectos 2 y 3 de nand2tetris con el proposi
 
 ## RAM16K
 
-##
+## PC
 
 # Preguntas adicionales
 
