@@ -28,8 +28,10 @@ Para realizar la RAM de 64 necesitamos 8 RAMs de 8 registros, por lo que la logi
 Como se menciono en los apartados anteriores, el principal problema de utilizar tanta recursividad es que cada segundo se vuelve mas lento el programa en ejecucuion, ya que en este caso, una RAM512 invoca 8 RAM64, cada una de estas 8 RAM8 y cada una de estas 8 register sin mencionar sus bits. Al igual que las anteriores bits se utiliza un demultiplexor para escribir y selecciona la RAM64 con los 3 bits mas signifcativos adress[6..8] y llama las RAM64 enviandoles como adress[0..5]. Para leer se utiliza un multiplexor que recibe las salidas de las RAM64 y selecciona la salida con adress[6..8]. Podemos concluir a esta altura que los 3 bits mas significativos del adress se utilizan en los DMUX Y MUX, mientras que el resto de bits se envian a la funcion RAM interna.
 
 ## RAM4k
+La RAM4K se compone de 8 RAM512 y un adress de 12 bits, al igual que en las anteriores, se usa un demultiplexor para asignar el load a la posicion de RAM correcta usando los 3 bits mas significativos del adress y se envian estos load o salidas del DMUX a cada una de los RAM512, las salidas de estas RAM512 entran a un multiplexor y segun adress[9..11] obtenemos la salida requerida. 
 
 ## RAM16K
+La RAM16K se compone de 8 RAM4K y un adress de 15 bits, al igual que en las anteriores, se usa un demultiplexor para asignar el load a la posicion de RAM correcta usando los 3 bits mas significativos del adress y se envian estos load o salidas del DMUX a cada una de los RAM4K, las salidas de estas RAM4K entran a un multiplexor y segun adress[12..14] obtenemos la salida requerida. 
 
 ## PC
 
