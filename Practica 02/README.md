@@ -4,9 +4,9 @@ En esta practica se realizaron los proyectos 2 y 3 de nand2tetris con el proposi
 # Códigos
 
 ## HalfAdder
-
+El halfAdder realiza la suma logica de dos inputs, al ejecutarlo el resultado de la salida suma da 0 si ambos inputs son diferentes y da uno si son iguales, lo cual es la definicion de la conmuerta xor, para el carry solamente da uno si ambos inputs son uno, esto recuerda a la compuerta and, por lo tanto para realizar el halfAdder se utilizan las compuertas xor y and con los inputs y sus outputs son el sum y carry respectivamente.
 ## FullAdder
-
+El fullAdder realiza la suma de 3 inputs de un bit, para su realizacion utilizamos el HalfAdder realizado antes sumando los dos primeros inputs, luego utilizamos otro HalfAdder para sumar el tercer input y el output de la primera suma, para el carry simplemente utilizamos un or cuyos inputs sean los carry de los dos HalfAdder que empleamos.
 ## Add16
 
 ## Inc16
