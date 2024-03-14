@@ -23,7 +23,7 @@ En nuestra opinión, la arquitectura de software sí es tenida en cuenta por la 
 
 
 
-# Compuertas 
+
 
 ## CPU
 
