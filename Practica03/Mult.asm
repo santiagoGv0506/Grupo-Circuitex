@@ -8,24 +8,29 @@
 // The algorithm is based on repetitive addition.
 
 
-@0
-M=0
 
-@1
-
-M=0
 
 @2
 M=0
 
 @i
 M=0
+D=M
 
 
 (LOOP)
 
+
+
+
     @0
-    D=A
+    D=D-M
+    @END
+    D;JGE
+
+    
+    @1
+    D=M
     @2
     M=M+D
 
@@ -33,16 +38,13 @@ M=0
     M=M+1
     D=M
 
-    @1
-    D=D-M
 
     @LOOP
-    D;JLT
+    0;JMP
 
 
 
-    @END
-    D;JEQ
+  
 
 (END)
 
