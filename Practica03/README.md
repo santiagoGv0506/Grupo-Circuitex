@@ -20,3 +20,29 @@ La arquitectura computacional se enfoca en el diseño y la disposición física 
 ##  ¿La arquitectura computacional o la arquitectura del sistema no tiene en cuenta igualmente la arquitectura de software?
 
 En nuestra opinión, la arquitectura de software sí es tenida en cuenta por la arquitectura del sistema, dando que dentro del sistema se contempla el software que se va a realizar para poder darle un uso significativo a la arquitectura de hardware, implementando no solamente maneras de trabajar y crear cosas nuevas, sino que brinda la sinergia para que el hardware y el software trabajen en conjunto y den vida a todas las herramientas tecnológica conocidas, tales como, el pc, celular, tableta, etc.
+
+
+
+# Compuertas 
+
+## CPU
+
+La CPU (Unidad Central de Procesamiento) es el componente central de la computadora que ejecuta instrucciones y realiza operaciones aritméticas y lógicas en los datos. La CPU está diseñada para ejecutar un conjunto específico de instrucciones definidas por el lenguaje de ensamblaje que se está utilizando en el proyecto, en este caso, el "Lenguaje Hack".
+
+En el proyecto Nand2tetris, la CPU se construye utilizando puertas lógicas básicas, como NAND, AND, OR, y se describe en un archivo llamado CPU.hdl. Este archivo proporciona una descripción detallada de cómo se conectan estas puertas lógicas para formar los componentes básicos de la CPU, como la unidad de control, la unidad aritmético lógica (ALU) y los registros.
+
+La CPU se encarga de ejecutar las instrucciones almacenadas en la memoria, recuperándolas, decodificándolas y ejecutándolas secuencialmente. También maneja la transferencia de datos entre la memoria y otros dispositivos de entrada/salida, así como el procesamiento de interrupciones y excepciones.
+
+![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/97885177/8195678c-1d1f-42ad-b9f6-9f15045d7a3c)
+
+
+## Computer
+
+ Unidad completa de hardware que se construye como parte del proyecto. Es el resultado final de la implementación de todos los componentes individuales, como la CPU, la memoria, los dispositivos de entrada/salida, etc. El archivo Computer.hdl es una parte esencial de este proceso, ya que define la estructura y el funcionamiento de la computadora completa.
+
+![image](https://github.com/santiagoGv0506/Grupo-Circuitex/assets/97885177/a125c5c8-8497-4f48-a019-623ee6ed985b)
+
+
+## Memory
+
+Memoria de acceso aleatorio (RAM) que se construye desde cero utilizando puertas lógicas básicas. Este componente esencial permite el almacenamiento temporal de datos durante la ejecución de programas y se organiza en direcciones para acceder a ubicaciones específicas. Implementada a través del archivo Memory.hdl, esta memoria es fundamental para cargar y almacenar datos e instrucciones que la CPU necesita para ejecutar programas, facilitando así la construcción de una computadora completa desde el nivel más bajo de hardware en el proyecto Nand2tetris.
