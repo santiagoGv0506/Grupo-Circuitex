@@ -26,23 +26,28 @@ D;JEQ
 (BLACK)
 @i
 M=0
+D=M
+
+
+@SCREEN
+A=A+D
+M=-1
+
 (LOOPONE)
 
+@i
+M=M+1
+D=M
 
+@SCREEN
+A=A+D
+M=-1
 
-    @SCREEN
-    M=-1
-    @i
-    M=M+1
-    D=M
+@8191
+D=D-A
 
-    @8191
-    D=D-A
-
-    @LOOPONE
-    D;JNE
-
-
+@LOOPONE
+D;JNE
 
 @BEGIN
 0;JMP
@@ -53,27 +58,28 @@ M=0
 
 @j
 M=0
+D=M
+
+
+@SCREEN
+A=A+D
+M=0
+
 (LOOTWO)
+@j
+M=M+1
+D=M
+
+@SCREEN
+A=A+D
+M=0
 
 
-    @SCREEN
-    M=-1
-    @j
-    M=M+1
-    D=M
-
-    @8191
-    D=D-A
+@8191
+D=D-A
     
-    @LOOTWO
-    D;JNE
-
-
-
-
-@BEGIN
-0;JMP
-
+@LOOTWO
+D;JNE
 
 
 
