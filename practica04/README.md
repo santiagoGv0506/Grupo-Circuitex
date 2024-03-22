@@ -36,9 +36,7 @@ La clase `Parser` es responsable de analizar y dividir el código en líneas ind
 
 El ensamblador implementado mediante estas clases permite la traducción efectiva de programas escritos en lenguaje ensamblador Hack a código binario ejecutable en la plataforma de hardware Hack. Cada clase cumple un papel específico en el proceso de ensamblaje, desde el manejo de símbolos hasta la traducción de instrucciones.
 
----
 
-Puedes agregar más detalles sobre la implementación y el funcionamiento interno de cada clase según sea necesario. Si tienes alguna pregunta o necesitas más detalles sobre algún aspecto en particular, no dudes en preguntar.
 
 ## preguntas
 ###  1.Teniendo en cuenta las características del ensamblador, ¿Cuál es la principal limitante que observan? Justifique su respuesta.
