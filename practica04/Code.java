@@ -144,6 +144,9 @@ public class Code {
                 case "DM":
                     binary = "011";
                     break;
+                case "MD":
+                    binary = "011";
+                    break;
                 case "A":
                     binary = "100";
                     break;
