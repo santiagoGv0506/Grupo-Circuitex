@@ -15,7 +15,7 @@ En la clase VMTranslator, poseemos un constructor que genera una instancia de la
 
 
 
-# proyecto 8
+# Proyecto 8
 En este proyecto se retoma el traductor basico VM que se construyo en el proyecto 7 a un traductor VM a gran escala.
 
 ## VMTranslator
