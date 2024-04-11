@@ -1,4 +1,4 @@
-se explicará el funcionamiento de tres clases que componen un ensamblador diseñado para traducir programas escritos en lenguaje ensamblador simbólico Hack a código binario ejecutable en la plataforma de hardware Hack.
+Se explicará el funcionamiento de tres clases que componen un ensamblador diseñado para traducir programas escritos en lenguaje ensamblador simbólico Hack a código binario ejecutable en la plataforma de hardware Hack.
 
 ## SymbolTable
 
