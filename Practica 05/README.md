@@ -30,6 +30,9 @@ La clase `VMTranslator` se encarga de dividir el proceso de traduccion, construy
 # Teniendo en cuenta el marco de estas dos prácticas que son las máquinas virtuales. ¿Cuál cree que es el futuro de las máquinas virtuales?
 Las maquinas virtuales son representaciones virtuales o emuladores de computadores que permiten simular procesos de una computadora mediante un lenguaje propio que podemos llevar al lenguaje de ensamblador y posteriormente a hack. Según algunas fuentes, las maquinas virtuales no estan condenadas a desaparecer pero, su crecimiento se reducira en comparacion al crecimiento de los contenedores.
 
+# ¿Qué lenguajes interpretadores ademas del Python existen?
+Además de Python, hay varios otros lenguajes interpretados que se utilizan ampliamente en diferentes áreas. Algunos de los más populares incluyen JavaScript, Ruby, Perl, R, MathLab, PHP y Lua.
+
 # Fuentes
 https://www.ibm.com/mx-es/topics/virtual-machines 
 https://es.linkedin.com/learning/fundamentos-de-la-carrera-de-administracion-de-sistemas-de-microsoft-y-linkedin/el-futuro-de-las-maquinas-virtuales-y-los-contenedores#:~:text=Las%20m%C3%A1quinas%20virtuales%20no%20desaparecer%C3%A1n,del%20hogar%20y%20la%20oficina.
