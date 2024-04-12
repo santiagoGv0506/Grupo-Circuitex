@@ -16,7 +16,7 @@ En la clase VMTranslator, poseemos un constructor que genera una instancia de la
 
 
 # Proyecto 8
-En este proyecto se retoma el traductor basico VM que se construyo en el proyecto 7 a un traductor VM a gran escala.
+En este proyecto se retoma el traductor basico VM que se construyo en el proyecto 7 y se convierte a un traductor VM a gran escala.
 
 ## Parser
 La clase `parser` se encarga de hacer el analisis del archivo .MV, para ello tiene un constructor que abre el archivo para preparar el parsing, despues tiene el metodo `HasMoreCommands()` que indica si hay mas lineas o comandos en el input, si el valor de esté ultimo es igual a true se llama al metodo `advance()` el cual ejecuta el siguiente comando y lo establece como comando actual, el metodo `CommandType` utiliza los mismos comandos que en el proyecto 7 para representar el tipo de comando actual que se esta utilizando pero ademas se le añaden los comandos goto, if-goto, label, call, function y return, el metodo `arg1` devuelve el primer argumento del comando actual a exepcion de si el comando es return, en este caso la funcion no sera llamada, finalmente el metodo `arg2` devolvera el 2 argumento del comando que se este ejecutando actualmente, pero solo se llamara si el comando actual es push, pop, function o call.
