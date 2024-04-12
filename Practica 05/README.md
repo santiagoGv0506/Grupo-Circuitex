@@ -18,15 +18,14 @@ En la clase VMTranslator, poseemos un constructor que genera una instancia de la
 # Proyecto 8
 En este proyecto se retoma el traductor basico VM que se construyo en el proyecto 7 a un traductor VM a gran escala.
 
-## VMTranslator
-La clase `VMTranslator` se encarga de dividir el proceso de traduccion usando el `codewriter` y `parser` dependiendo del formato en el que se ingresen los archivos.
+## Parser
+La clase `parser` se encarga de hacer el analisis del archivo .MV, para ello tiene un constructor que abre el archivo para preparar el parsing, despues tiene el metodo `HasMoreCommands()` que indica si hay mas lineas o comandos en el input, si el valor de esté ultimo es igual a true se llama al metodo `advance()` el cual ejecuta el siguiente comando y lo establece como comando actual, el metodo `CommandType` utiliza los mismos comandos que en el proyecto 7 para representar el tipo de comando actual que se esta utilizando pero ademas se le añaden los comandos goto, if-goto, label, call, function y return, el metodo `arg1` devuelve el primer argumento del comando actual a exepcion de si el comando es return, en este caso la funcion no sera llamada, finalmente el metodo `arg2` devolvera el 2 argumento del comando que se este ejecutando actualmente, pero solo se llamara si el comando actual es push, pop, function o call.
 
 ## CodeWriter
-La clase `CodeWriter` se encarga de realizar el codigo ensamblador o assembly que realiza el comando de analizis o parsed command.
+La clase `CodeWriter` se encarga de realizar el codigo ensamblador o assembly que realiza el comando de analizis o parsed command, esté consta de un constructor que genera un archivo de salida listo para escribir las instrucciones assembly en el, tiene un metodo `setFileName` que inicializa la traduccion de un nuevo archivo VM, posee los metodos `writeAritmetic` y `writePushPop` elaborados en el proyecto 7 para los comandos aritmeticos y de push y pop implementados, a estos metodos se le adicionan los metodos respectivos para los nuevos comandos implementados en el parser `writeLabel`, `writeGoto`, `writeIf`, `writeFunction`, `writeCall` y `writeReturn` que generan el respectivo codigo assembly para efectuar el comando, finalmente tenemos el metodo tambien implementado en el proyecto 7 `close` que cierra el archivo de output.
 
-## Parser
-La clase `parser` se encarga de hacer el analisis del archivo .MV, para ello lee el archivo omitiendo los espacios blancos y comentarios, convierte los comandos de analisis en componentes lexicos y proporciona un acceso conveniente a estos componentes.
-
+## VMTranslator
+La clase `VMTranslator` se encarga de dividir el proceso de traduccion, construye primeramente un `codewriter` Si el input es un archivo .vm construye un `Parser` para manejar el archivo de entrada. Para cada comando VM en el archivo de entrada utiliza el Parser para analizar el comando y utiliza el CodeWriter para generar código ensamblador a partir de él, por otro lado, si el input es una carpeta de archivos VM utiliza los nuevos comandos de funcion y ramificacion del parser para generar el respectivo codigo de ensamblador con el codewriter.
 
 # Teniendo en cuenta el marco de estas dos prácticas que son las máquinas virtuales. ¿Cuál cree que es el futuro de las máquinas virtuales?
 Las maquinas virtuales son representaciones virtuales o emuladores de computadores que permiten simular procesos de una computadora mediante un lenguaje propio que podemos llevar al lenguaje de ensamblador y posteriormente a hack. Según algunas fuentes, las maquinas virtuales no estan condenadas a desaparecer pero, su crecimiento se reducira en comparacion al crecimiento de los contenedores.
