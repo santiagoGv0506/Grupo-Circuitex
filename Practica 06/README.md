@@ -1,6 +1,12 @@
 # PROYECTO 9
 
 ## Proyecto 9
+
+El primer código define una clase llamada DotGame, que representa un juego donde un punto se mueve en la pantalla según las teclas presionadas. El juego incluye la capacidad de borrar la pantalla y salir del juego con teclas específicas. Utiliza un objeto de la clase Dot para representar el punto en la pantalla. El método run() controla la lógica del juego, mientras que moveDot() maneja el movimiento del punto.
+El segundo código define la clase Dot, que representa un punto en la pantalla. Esta clase incluye métodos para dibujar el punto en la pantalla y moverlo en diferentes direcciones.
+En resumen, el primer código es un juego que utiliza la clase Dot para representar el punto en la pantalla y controlar su movimiento, mientras que el segundo código define la clase Dot que proporciona la funcionalidad para manipular y dibujar el punto en la pantalla. El juego permite al usuario interactuar con el punto utilizando teclas específicas para controlar su movimiento y salir del juego.
+
+
 # 1.	¿Qué lenguajes interpretadores ademas del Python existen?
 
 JavaScript: Utilizado para aplicaciones web interactivas, ejecutándose en motores como V8 o SpiderMonkey en navegadores web.
