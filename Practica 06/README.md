@@ -1,9 +1,9 @@
 # PROYECTO 9
 
-##Sexta Práctica
-#1.	¿Qué lenguajes interpretadores ademas del Python existen?
+Sexta Práctica
+1.	¿Qué lenguajes interpretadores ademas del Python existen?
 
-#JavaScript: Utilizado para aplicaciones web interactivas, ejecutándose en motores como V8 o SpiderMonkey en navegadores web.
+JavaScript: Utilizado para aplicaciones web interactivas, ejecutándose en motores como V8 o SpiderMonkey en navegadores web.
 • Ruby: Enfocado en la productividad y la simplicidad, interpretado por el intérprete de Ruby (MRI).
 • PHP: Especializado en desarrollo web del lado del servidor, interpretado por servidores web con PHP-FPM o mod_php.
 • Perl: Versátil, utilizado en administración de sistemas, desarrollo web y procesamiento de texto, interpretado por el intérprete de Perl.
@@ -11,7 +11,8 @@
 • Lua: Ligero y poderoso, utilizado en juegos de video, aplicaciones embebidas y desarrollo web, interpretado por el intérprete Lua, integrable fácilmente en otras aplicaciones.
 Estos ejemplos muestran la diversidad de lenguajes interpretados, cada uno con sus propias características y usos específicos.
 
-#Pregunta Bonus
+Pregunta Bonus
+
 ¿Qué se debe considerar para proponer un nuevo y buen lenguaje de programación, teniendo en cuenta la arquitectura de computador completa?
 Para proponer un nuevo y bueno lenguaje de programación considerando la arquitectura de computadora completa, se debe tener en cuenta lo siguiente:
 
