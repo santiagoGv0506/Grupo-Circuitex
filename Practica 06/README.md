@@ -11,10 +11,15 @@ En resumen, el primer código es un juego que utiliza la clase `Dot` para repres
 
 JavaScript: Utilizado para aplicaciones web interactivas, ejecutándose en motores como V8 o SpiderMonkey en navegadores web.
 • Ruby: Enfocado en la productividad y la simplicidad, interpretado por el intérprete de Ruby (MRI).
+
 • PHP: Especializado en desarrollo web del lado del servidor, interpretado por servidores web con PHP-FPM o mod_php.
+
 • Perl: Versátil, utilizado en administración de sistemas, desarrollo web y procesamiento de texto, interpretado por el intérprete de Perl.
+
 • R: Principalmente para análisis estadístico y visualización de datos, interpretado por el intérprete de R, disponible en herramientas como RStudio y Jupyter Notebooks.
+
 • Lua: Ligero y poderoso, utilizado en juegos de video, aplicaciones embebidas y desarrollo web, interpretado por el intérprete Lua, integrable fácilmente en otras aplicaciones.
+
 Estos ejemplos muestran la diversidad de lenguajes interpretados, cada uno con sus propias características y usos específicos.
 
 # Pregunta Bonus
