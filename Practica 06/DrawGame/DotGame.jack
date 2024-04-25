@@ -1,0 +1,111 @@
+/**
+ * Clase DotGame
+ * El juego consiste en dibujar en pantalla el movimiento de un punto de tal manera que 
+ * podemos observar el paso del punto
+ * 
+ * Las teclas E y delete borran la pantalla
+ * La tecla q permite salir del juego
+ */
+class DotGame {
+
+    Creamos una variable dot de tipo Dot
+    field Dot dot;
+
+    // Direccion del movimiento del punto
+    field int direction; // 0=nada,1=arriba,2=abajo,3=izquierda,4=derecha
+
+    /** Inicializacion del juego, para esto, creamos un punto */
+    constructor DotGame new() {
+        //Creamos un punto de tamanio 30 en las coordenadas (0,0)
+        let dot = Dot.new(0, 0, 30);
+        let direction = 0;
+
+        return this;
+    }
+
+    /** Destruye el objeto Dot y el ojeto DotGame*/
+    method void dispose() {
+        do dot.dispose();
+        do Memory.deAlloc(this);
+        return;
+    }
+
+    /** Inicia el juego */
+    method void run() {
+        var char key;
+        var boolean exit;
+
+        let exit = false;
+
+        while (~exit) {
+            //Esperamos que se presione una tecla y guardamos el valor correspondiente 
+            //a la tecla presionada
+            while (key = 0) {
+                let key = Keyboard.keyPressed();
+            }
+            //El 81 corresponde a q, por lo tanto el juego terminara
+            if (key = 81) {
+                let exit = true;
+            }
+
+            //Si se presiona delete o e, se borra la pantalla
+            if (key = 139) {
+                do Screen.clearScreen();
+                let direction = 0;
+            }
+            if (key = 69) {
+                do Screen.clearScreen();
+                let direction = 0;
+            }
+            if (key = 101) {
+                do Screen.clearScreen();
+                let direction = 0;
+            }
+            //Si se presiona la flecha superior la direccion sera subir
+            if (key = 131) {
+                let direction = 1;
+            }
+            Si se presiona la flecha inferior la direccion sera bajar
+            if (key = 133) {
+                let direction = 2;
+            }
+            Si se presiona la flecha izquierda la direccion sera izquierda
+            if (key = 130) {
+                let direction = 3;
+            }
+            Si se presiona la flecha derecha la direccion sera derecha
+            if (key = 132) {
+                let direction = 4;
+            }
+
+            // esperamos que se pulse nuevamente una tecla
+            while (~(key = 0)) {
+                let key = Keyboard.keyPressed();
+                //Llama el metodo mover punto
+                do moveDot();
+            }
+        }
+            
+        return;
+  }
+
+    /** Mueve el punto 2 pixeles segun la direccion indicada por teclado */
+    method void moveDot() {
+        if (direction = 0) {}    
+        if (direction = 1) {
+            do dot.moveUp();
+        }
+        if (direction = 2) {
+            do dot.moveDown();
+        }
+        if (direction = 3) {
+            do dot.moveLeft();
+        }
+        if (direction = 4) {
+            do dot.moveRight();
+        }
+        //Demora un poco el movimiento del punto
+        do Sys.wait(30); 
+        return;
+    }
+}

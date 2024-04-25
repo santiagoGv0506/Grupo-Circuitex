@@ -1,0 +1,16 @@
+
+class Main {
+
+    /** Instancia el juego y lo inicia */    
+    function void main() {
+        //Declaramos la variable juego, de tipo DotGame
+        var DotGame game;
+        //Lo iniciamos con ayuda del constructor
+        let game = DotGame.new();
+        //Utilizamos el metodo correr el juego
+        do game.run();
+        //Por buenas practicas se elimina de memoria una vez terminado
+        do game.dispose();
+        return;
+    }
+}
