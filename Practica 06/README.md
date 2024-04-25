@@ -28,11 +28,17 @@ Estos ejemplos muestran la diversidad de lenguajes interpretados, cada uno con s
 ¿Qué se debe considerar para proponer un nuevo y buen lenguaje de programación, teniendo en cuenta la arquitectura de computador completa?
 Para proponer un nuevo y bueno lenguaje de programación considerando la arquitectura de computadora completa, se debe tener en cuenta lo siguiente:
 
-## Eficiencia y rendimiento: El lenguaje debe aprovechar eficientemente los recursos del hardware.
-## Abstracción adecuada: Debe permitir una expresión clara de conceptos sin sacrificar el control sobre el hardware.
-## Portabilidad: Debe ser compatible con diferentes plataformas de hardware y sistemas operativos.
-## Seguridad y confiabilidad: Debe incluir características para prevenir errores y vulnerabilidades de seguridad.
-## Facilidad de uso y aprendizaje: Debe ser fácil de aprender y usar, con una sintaxis clara y herramientas de desarrollo completas.
-## Soporte para programación concurrente y distribuida: Debe incluir características para la programación en entornos paralelos y distribuidos.
+Eficiencia y rendimiento: El lenguaje debe aprovechar eficientemente los recursos del hardware.
+ 
+Abstracción adecuada: Debe permitir una expresión clara de conceptos sin sacrificar el control sobre el hardware.
+
+Portabilidad: Debe ser compatible con diferentes plataformas de hardware y sistemas operativos.
+
+Seguridad y confiabilidad: Debe incluir características para prevenir errores y vulnerabilidades de seguridad.
+
+Facilidad de uso y aprendizaje: Debe ser fácil de aprender y usar, con una sintaxis clara y herramientas de desarrollo completas.
+
+Soporte para programación concurrente y distribuida: Debe incluir características para la programación en entornos paralelos y distribuidos.
+
 Un buen lenguaje equilibra estos aspectos para ofrecer una experiencia de programación efectiva y productiva en una variedad de aplicaciones y entornos.
 
