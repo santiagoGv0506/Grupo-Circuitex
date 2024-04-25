@@ -6,7 +6,7 @@ El segundo código define la clase `Dot`, que representa un punto en la pantalla
 En resumen, el primer código es un juego que utiliza la clase `Dot` para representar el punto en la pantalla y controlar su movimiento, mientras que el segundo código define la clase `Dot` que proporciona la funcionalidad para manipular y dibujar el punto en la pantalla. El juego permite al usuario interactuar con el punto utilizando teclas específicas para controlar su movimiento y salir del juego.
 
 
-# 1.	¿Qué lenguajes interpretadores ademas del Python existen?
+# 	¿Qué lenguajes interpretadores ademas del Python existen?
 
 JavaScript: Utilizado para aplicaciones web interactivas, ejecutándose en motores como V8 o SpiderMonkey en navegadores web.
 
