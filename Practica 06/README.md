@@ -10,6 +10,7 @@ En resumen, el primer código es un juego que utiliza la clase `Dot` para repres
 # 1.	¿Qué lenguajes interpretadores ademas del Python existen?
 
 JavaScript: Utilizado para aplicaciones web interactivas, ejecutándose en motores como V8 o SpiderMonkey en navegadores web.
+
 • Ruby: Enfocado en la productividad y la simplicidad, interpretado por el intérprete de Ruby (MRI).
 
 • PHP: Especializado en desarrollo web del lado del servidor, interpretado por servidores web con PHP-FPM o mod_php.
