@@ -28,7 +28,7 @@ Estos ejemplos muestran la diversidad de lenguajes interpretados, cada uno con s
 
 # Pregunta Bonus
 
-¿Qué se debe considerar para proponer un nuevo y buen lenguaje de programación, teniendo en cuenta la arquitectura de computador completa?
+• ¿Qué se debe considerar para proponer un nuevo y buen lenguaje de programación, teniendo en cuenta la arquitectura de computador completa?
 
 Para proponer un nuevo y bueno lenguaje de programación considerando la arquitectura de computadora completa, se debe tener en cuenta lo siguiente:
 
