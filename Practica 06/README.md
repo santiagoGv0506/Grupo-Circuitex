@@ -5,8 +5,12 @@ El segundo código define la clase `Dot`, que representa un punto en la pantalla
 
 En resumen, el primer código es un juego que utiliza la clase `Dot` para representar el punto en la pantalla y controlar su movimiento, mientras que el segundo código define la clase `Dot` que proporciona la funcionalidad para manipular y dibujar el punto en la pantalla. El juego permite al usuario interactuar con el punto utilizando teclas específicas para controlar su movimiento y salir del juego.
 
+#  •Desarrolle más el concepto de lenguaje de alto nivel, teniendo en cuenta la diferencia entre lenguajes de programación propiamente dichos e interpretadores.
 
-# 	¿Qué lenguajes interpretadores ademas del Python existen?
+Los lenguajes de alto nivel facilitan la escritura de programas para los humanos al utilizar términos comprensibles y ofrecer abstracción, facilidad de uso, portabilidad y productividad. Por otro lado, los lenguajes de programación propiamente dichos definen la sintaxis y se traducen en instrucciones ejecutables mediante compiladores o intérpretes, pudiendo priorizar la eficiencia o la portabilidad.
+
+
+# 	•¿Qué lenguajes interpretadores ademas del Python existen?
 
 JavaScript: Utilizado para aplicaciones web interactivas, ejecutándose en motores como V8 o SpiderMonkey en navegadores web.
 
