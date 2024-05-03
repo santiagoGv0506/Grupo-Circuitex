@@ -23,5 +23,4 @@ https://youtu.be/bx0-9lVvfvQ
 
 **Video Diego Alejandro Garcia Barajas - Cod: 2211848**
 
-[![Miniatura del video](https://www.canva.com/design/DAGENXpIiSQ/1LkHMjhKuFZfncDy3bRv3A/view)]
 https://www.canva.com/design/DAGENXpIiSQ/1LkHMjhKuFZfncDy3bRv3A/view
